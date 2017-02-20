@@ -1,7 +1,7 @@
 $(function() {
 
     $.ajax({
-    url: 'https://www.codeschool.com/users/oleksaostapenko.json',
+    url: 'https://www.codeschool.com/users/3130639.json',
     dataType: 'jsonp',
     success: function(response) {
     	var courseContainer = $.map(response.courses.completed, function(course, index){
